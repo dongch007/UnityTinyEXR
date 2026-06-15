@@ -1,6 +1,6 @@
 # Unity TinyEXR
 
-[syoyo/tinyexr](https://github.com/syoyo/tinyexr) wrapper for Unity, following the lightweight native-plugin style used by [UnityStb](https://github.com/dongch007/UnityStb).
+[syoyo/tinyexr](https://github.com/syoyo/tinyexr) wrapper for Unity.
 
 It loads EXR bytes or files directly in Unity and returns `UnityEngine.Color[]`.
 
