@@ -10,6 +10,7 @@ tinyexr
 
 Location:
   native/tinyexr/
+  native/tinyexr/LICENSE
 
 Source:
   https://github.com/syoyo/tinyexr
@@ -54,6 +55,7 @@ miniz
 
 Location:
   native/tinyexr/deps/miniz/
+  native/tinyexr/deps/miniz/LICENSE
 
 Source:
   Bundled with syoyo/tinyexr
