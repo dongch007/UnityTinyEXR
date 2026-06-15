@@ -34,7 +34,6 @@ native/                          Native plugin source and build files
 ## Unity usage
 
 ```csharp
-using GCGame;
 using UnityEngine;
 
 public class ExrExample : MonoBehaviour
