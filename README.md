@@ -67,9 +67,3 @@ Color[] colors = TinyExr.LoadColors(bytes, out int width, out int height);
 - Uses tinyexr's stable v1 `LoadEXRFromMemory` API and bundled `miniz`.
 - Returns RGBA float data, mapped one-to-one into `UnityEngine.Color`.
 - Layered EXR channels such as `diffuse.R` require tinyexr's layer-specific API and are not exposed by this minimal wrapper yet.
-
-## License
-
-UnityTinyEXR wrapper code is MIT licensed. Bundled tinyexr code remains under
-the BSD 3-Clause License, and bundled miniz code remains under its original
-MIT-style license. See `THIRD_PARTY_NOTICES.txt` for details.
