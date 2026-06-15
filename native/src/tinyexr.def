@@ -1,0 +1,7 @@
+LIBRARY "TinyExr"
+
+EXPORTS
+    tinyexr_load_rgba_from_memory
+    tinyexr_is_exr_from_memory
+    tinyexr_free
+    tinyexr_free_error

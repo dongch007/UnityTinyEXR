@@ -1,0 +1,7 @@
+native/build/
+.tinyexr-upstream/
+.unitystb-reference/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
