@@ -59,7 +59,7 @@ For only `Color[]`:
 Color[] colors = TinyExr.LoadColors(bytes, out int width, out int height);
 ```
 
-`TinyExr.FlipVerticallyOnLoad` defaults to `true` to match Unity texture coordinates. Pass `false` to `Load(...)` or `LoadFile(...)` if you want the raw row order returned by tinyexr.
+`Load(...)` and `LoadFile(...)` flip vertically by default to match Unity texture usage. Pass `false` to keep the raw row order produced by tinyexr.
 
 ## Notes
 

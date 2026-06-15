@@ -42,8 +42,6 @@ public static class TinyExr
         }
     }
 
-    public static bool FlipVerticallyOnLoad { get; set; } = true;
-
     public static bool IsEXR(byte[] bytes)
     {
         return bytes != null &&
@@ -53,7 +51,7 @@ public static class TinyExr
 
     public static ImageResult LoadFile(string path)
     {
-        return LoadFile(path, FlipVerticallyOnLoad);
+        return LoadFile(path, true);
     }
 
     public static ImageResult LoadFile(string path, bool flipVertically)
@@ -66,7 +64,7 @@ public static class TinyExr
 
     public static ImageResult Load(byte[] bytes)
     {
-        return Load(bytes, FlipVerticallyOnLoad);
+        return Load(bytes, true);
     }
 
     public static ImageResult Load(byte[] bytes, bool flipVertically)
